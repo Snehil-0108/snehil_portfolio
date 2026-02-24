@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Anmagandla Snehil</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="background-animation">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="#home"><span class="logo-bracket">&lt;</span>Snehil<span class="logo-bracket">/&gt;</span></a>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="glitch" data-text="Hello, I'm">Hello, I'm</h1>
+                <h2 class="name-animation">
+                    <span class="typing-effect">Anmagandla Snehil</span>
+                </h2>
+                <h3 class="title-animation">
+                    <span class="role"></span>
+                    <span class="cursor">|</span>
+                </h3>
+                <p class="hero-description">
+                    B.Tech in Computer Science - Data Science | AI/ML Enthusiast | Full Stack Developer
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View My Work</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>Get In Touch</span>
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/" target="_blank" class="social-icon" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/" target="_blank" class="social-icon" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:snehil.a030@nmims.edu.in" class="social-icon" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="tel:+919502605942" class="social-icon" aria-label="Phone">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-frame">
+                    <img src="snehil.jpeg" alt="Anmagandla Snehil" class="profile-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">01.</span>
+                <h2 class="section-title">About Me</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        Hello! I'm Anmagandla Snehil, a passionate Computer Science student specializing in Data Science 
+                        at SVKM's Narsee Monjee Institute of Management and Studies. Born on August 1, 2004, I've developed 
+                        a strong foundation in AI/ML, full-stack development, and data analytics.
+                    </p>
+                    <p class="about-description">
+                        My journey in technology has led me to work on innovative projects ranging from healthcare AI systems 
+                        to wildlife conservation applications. I've gained hands-on experience through my internship at 
+                        DataElegance Solution LLP, where I contributed to building robust warehouse management systems.
+                    </p>
+                    <p class="about-description">
+                        I've published research in IEEE conferences and completed certifications from AWS and Microsoft. 
+                        I specialize in building AI-powered solutions and full-stack applications using cutting-edge technologies.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3 class="stat-number" data-target="2026">0</h3>
+                        <p class="stat-label">Graduation Year</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <h3 class="stat-number" data-target="10">0</h3>
+                        <p class="stat-label">Projects Built</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h3 class="stat-number" data-target="5">0</h3>
+                        <p class="stat-label">Achievements</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">02.</span>
+                <h2 class="section-title">Education & Experience</h2>
+                <div class="title-line"></div>
+            </div>
+            
+            <div class="timeline">
+                <!-- Education Items -->
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2022 - 2026</span>
+                        <h3 class="timeline-title">B.Tech in Computer Science - Data Science</h3>
+                        <h4 class="timeline-subtitle">SVKM's Narsee Monjee Institute of Management and Studies</h4>
+                        <p class="timeline-description">CGPA: 3.11/4.00</p>
+                        <p class="timeline-description">Focused on AI/ML, Deep Learning, Full Stack Development, and Data Analytics</p>
+                    </div>
+                </div>
+
+                <!-- Internship -->
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">May 2025 - August 2025</span>
+                        <h3 class="timeline-title">Software Development Intern</h3>
+                        <h4 class="timeline-subtitle">DataElegance Solution LLP</h4>
+                        <p class="timeline-description">
+                            Worked on warehouse management system, building modules for inbound entry, multilingual preferences, 
+                            and labor management. Implemented cart-style item handling, form validations, and admin controls 
+                            with advanced filtering and photo compression.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Achievements Section -->
+            <div class="achievements-section">
+                <h3 class="achievements-title">
+                    <i class="fas fa-trophy"></i>
+                    Achievements & Leadership
+                </h3>
+                <div class="achievements-grid">
+
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <h4>IEEE ICEI 2025 Publication</h4>
+                        <p>Published research on Dilated Causal Convolutions for Sleep Apnea Detection at IIT Dharwad</p>
+                    </div>
+
+
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-medal"></i>
+                        </div>
+                        <h4>Secretary - Impulse Sports Committee</h4>
+                        <p>Led coordination of inter and intra-college sports events and logistics (2024)</p>
+                    </div>
+                    
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <h4>IBM Z Datathon Participant</h4>
+                        <p>Built YouTube Engagement Rate Prediction model during 24-hour hackathon (Oct 2024)</p>
+                    </div>
+                    
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h4>Runner-up - CodeIT Webathon</h4>
+                        <p>Achieved 3rd place in competitive web development event</p>
+                    </div>
+                    
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h4>Runner-up - CSI Project Expo</h4>
+                        <p>Secured 3rd place at in-campus technical project expo</p>
+                    </div>
+                    
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h4>ACM Summer School on IoT</h4>
+                        <p>Attended focused program on IoT, sensor integration, and next-gen computing (2025)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">03.</span>
+                <h2 class="section-title">Skills & Expertise</h2>
+                <div class="title-line"></div>
+            </div>
+            
+            <div class="skills-grid-redesign">
+                <!-- AI/ML & Data Science -->
+                <div class="skill-card-modern">
+                    <div class="skill-card-header">
+                        <i class="fas fa-brain"></i>
+                        <h3>AI/ML & Data Science</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">Scikit-learn</span>
+                        <span class="skill-tag">CNN</span>
+                        <span class="skill-tag">LSTM</span>
+                        <span class="skill-tag">Deep Learning</span>
+                        <span class="skill-tag">Data Analysis</span>
+                        <span class="skill-tag">R</span>
+                        <span class="skill-tag">Power BI</span>
+                    </div>
+                </div>
+
+                <!-- Frontend Development -->
+                <div class="skill-card-modern">
+                    <div class="skill-card-header">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Frontend Development</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">Next.js</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+                        <span class="skill-tag">Responsive Design</span>
+                    </div>
+                </div>
+
+                <!-- Backend & Database -->
+                <div class="skill-card-modern">
+                    <div class="skill-card-header">
+                        <i class="fas fa-server"></i>
+                        <h3>Backend & Database</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">REST API</span>
+                    </div>
+                </div>
+
+                <!-- Mobile Development -->
+                <div class="skill-card-modern">
+                    <div class="skill-card-header">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Mobile Development</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Android SDK</span>
+                        <span class="skill-tag">Android Studio</span>
+                        <span class="skill-tag">Firebase</span>
+                        <span class="skill-tag">SQLite</span>
+                    </div>
+                </div>
+
+                <!-- Cloud & DevOps -->
+                <div class="skill-card-modern">
+                    <div class="skill-card-header">
+                        <i class="fas fa-cloud"></i>
+                        <h3>Cloud & DevOps</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">Docker</span>
+                    </div>
+                </div>
+
+                <!-- Tools & Technologies -->
+                <div class="skill-card-modern">
+                    <div class="skill-card-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Tools & Technologies</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Jupyter Notebook</span>
+                        <span class="skill-tag">RStudio</span>
+                        <span class="skill-tag">Postman</span>
+                        <span class="skill-tag">LaTeX</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">04.</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="title-line"></div>
+            </div>
+            
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="ai-ml">AI/ML</button>
+                <button class="filter-btn" data-filter="web">Web Apps</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-category="ai-ml">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" aria-label="View project">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-link" aria-label="View code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">Deep Learning</span>
+                            <span class="tag">CNN</span>
+                            <span class="tag">BiLSTM</span>
+                            <span class="tag">Python</span>
+                        </div>
+                        <h3 class="project-title">Sleep Apnea Disorder Detection</h3>
+                        <p class="project-description">
+                            Developed an ECG-based apnea detection system using Se-MSCNN and BiLSTM models. 
+                            Extracted key features from PhysioNet data for non-invasive, real-time monitoring via wearable devices.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-category="ai-ml">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-paw"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" aria-label="View project">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-link" aria-label="View code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">YOLOv8</span>
+                            <span class="tag">Computer Vision</span>
+                            <span class="tag">Full Stack</span>
+                        </div>
+                        <h3 class="project-title">Wild-Guard: AI Wildlife Detection</h3>
+                        <p class="project-description">
+                            AI-powered wildlife detection system using custom YOLOv8 models with 95%+ accuracy. 
+                            Features real-time detection from videos, automated alerts, and full-stack web application.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card" data-category="mobile">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" aria-label="View project">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-link" aria-label="View code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">Android</span>
+                            <span class="tag">Java</span>
+                            <span class="tag">Google Maps</span>
+                            <span class="tag">SQLite</span>
+                        </div>
+                        <h3 class="project-title">Geo-Alert: Location Alarm App</h3>
+                        <p class="project-description">
+                            Android app with geofencing that triggers alarms on location entry/exit. 
+                            Features real-time tracking, persistent storage, and customizable alerts with interactive map views.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">05.</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="title-line"></div>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 class="contact-heading">Let's work together</h3>
+                    <p class="contact-description">
+                        I'm currently open to internship opportunities, exciting AI/ML projects, and collaborative 
+                        development work. Whether it's research, full-stack development, or innovative tech solutions, 
+                        I'd love to hear from you!
+                    </p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <a href="mailto:snehil.a030@nmims.edu.in">snehil.a030@nmims.edu.in</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <a href="tel:+919502605942">+91 9502605942</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>University</h4>
+                                <p>NMIMS Mumbai</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input 
+                            type="text" 
+                            id="name" 
+                            name="name" 
+                            placeholder="Your Name" 
+                            required
+                        >
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input 
+                            type="email" 
+                            id="email" 
+                            name="email" 
+                            placeholder="your.email@example.com" 
+                            required
+                        >
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input 
+                            type="text" 
+                            id="subject" 
+                            name="subject" 
+                            placeholder="Project Inquiry" 
+                            required
+                        >
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea 
+                            id="message" 
+                            name="message" 
+                            placeholder="Your message here..." 
+                            rows="5" 
+                            required
+                        ></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">
+                        <span class="logo-bracket">&lt;</span>Snehil<span class="logo-bracket">/&gt;</span>
+                    </h3>
+                    <p class="footer-description">
+                        Innovating at the intersection of AI and software development.
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://github.com/" target="_blank" class="social-icon" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/" target="_blank" class="social-icon" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:snehil.a030@nmims.edu.in" class="social-icon" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="tel:+919502605942" class="social-icon" aria-label="Phone">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Expertise</h4>
+                    <ul class="footer-links">
+                        <li><a href="#skills">AI/ML Development</a></li>
+                        <li><a href="#skills">Full Stack Development</a></li>
+                        <li><a href="#skills">Mobile Apps</a></li>
+                        <li><a href="#skills">Data Science</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Certifications</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">AWS Cloud Foundations</a></li>
+                        <li><a href="#">Microsoft Data Analysis</a></li>
+                        <li><a href="#">IEEE Publications</a></li>
+                        <li><a href="#">ACM IoT School</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Anmagandla Snehil. All rights reserved.</p>
+                <p>Designed & Built with <i class="fas fa-heart"></i>  Anmagandla Snehil</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
